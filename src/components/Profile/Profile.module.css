@@ -1,22 +1,25 @@
 .profile {
-    width: 260px;
+    width: 300px;
     height: auto;
     background-color: white;
     border-radius: 5px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 50px;
+    border-radius: 5px;
   }
   .description {
     margin-bottom: 20px;
   }
   .avatar {
-    width: 150px;
+    width: 200px;
     border-radius: 100px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-    border: 1px solid gray;
+    background-color: rgb(247, 244, 244);
+    /* border: 1px solid gray; */
   }
   .name {
     font-weight: 600;
