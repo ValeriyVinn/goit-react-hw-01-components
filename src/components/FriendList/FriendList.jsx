@@ -7,7 +7,10 @@ export const FriendList = ({ friends }) => {
       <ul className={css.friend_list}>
         {friends.map(({ avatar, name, isOnline, id }) => {
           return (
-            <li className={css.item} key={id}>
+            <li
+              className={isOnline ? css.itemOnline : css.itemOffline}
+              key={id}
+            >
               <span className={isOnline ? css.online : css.offline}></span>
               <img className={css.avatar} src={avatar} alt={name} width="48" />
               <p className={css.name}>{name}</p>
@@ -22,9 +25,9 @@ export const FriendList = ({ friends }) => {
 FriendList.propTypes = {
   friends: PropTypes.arrayOf(
     PropTypes.shape({
+      id: PropTypes.number.isRequired,
       avatar: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
-      id: PropTypes.number.isRequired,
       isOnline: PropTypes.bool.isRequired,
     })
   ),
