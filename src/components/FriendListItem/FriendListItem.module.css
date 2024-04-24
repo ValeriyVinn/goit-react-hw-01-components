@@ -34,7 +34,6 @@
 }
 .itemOffline:hover {
   border-radius: 5px;
-  border-radius: none;
   background-color: rgb(255, 223, 223);
   box-shadow: 3px 5px 3px 0px red;
   -webkit-box-shadow: 3px 5px 3px 0px red;
@@ -47,7 +46,6 @@
   -webkit-box-shadow: 3px 5px 3px 0px green;
   -moz-box-shadow: 3px 5px 3px 0px green;
 }
-
 .avatar {
   margin-right: 30px;
 }
