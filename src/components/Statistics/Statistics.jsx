@@ -1,12 +1,15 @@
 // import PropTypes from 'prop-types';
 // import css from './Statistics.module.css';
 
-// const createColor = () => {
-//   const color = `#${Math.floor(Math.random() * 16777215)
-//     .toString(16)
-//     .padStart(6, 0)}`;
-//   return color;
-// };
+// import { Profiled } from './Profile.styled';
+
+
+const createColor = () => {
+  const color = `#${Math.floor(Math.random() * 16777215)
+    .toString(16)
+    .padStart(6, 0)}`;
+  return color;
+};
 
 // export const Statistics = ({ title, stats }) => {
 //   return (

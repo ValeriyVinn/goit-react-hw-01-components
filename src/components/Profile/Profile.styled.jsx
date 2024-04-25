@@ -16,7 +16,7 @@ export const Description = styled.div`
   margin-bottom: 20px;
 `;
 
-export const Avatar = styled.div`
+export const Avatar = styled.img`
 width: 200px;
   border-radius: 100px;
   margin-left: auto;
@@ -24,11 +24,15 @@ width: 200px;
   margin-bottom: 20px;
   background-color: rgb(247, 244, 244);`;
 
-export const Name = styled.div`
+export const Name = styled.p`
 font-weight: 600;
   font-size: 22px;
   text-align: center;
-  margin-bottom: 10px;`;
+  margin-bottom: 10px;
+
+  /* $(props => {username}); */
+  
+  `;
 
 export const Tag = styled.div`
 color: gray;

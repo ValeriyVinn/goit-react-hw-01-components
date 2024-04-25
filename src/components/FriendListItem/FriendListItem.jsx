@@ -1,5 +1,8 @@
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 // import css from './FriendListItem.module.css';
+
+// import { Profiled } from './Profile.styled';
+
 
 // export const FriendListItem = ({ avatar, name, isOnline }) => {
 //   return (
