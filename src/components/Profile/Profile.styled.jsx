@@ -34,19 +34,19 @@ font-weight: 600;
   
   `;
 
-export const Tag = styled.div`
+export const Tag = styled.p`
 color: gray;
   text-align: center;
   margin-bottom: 10px;
   font-size: 14px;
   cursor: pointer;`;
 
-export const Location = styled.div`
+export const Location = styled.p`
 color: inherit;
   text-align: center;
   font-size: 14px;`;
 
-export const Stats = styled.div`
+export const StatsUl = styled.ul`
 display: flex;
   background-color: rgb(247, 244, 244);
   width: 100%;
@@ -54,7 +54,7 @@ display: flex;
   border-bottom-right-radius: 5px;
   border: 1px solid rgb(200, 199, 199);`;
 
-export const Items = styled.div`
+export const ListItem = styled.li`
 display: flex;
   flex-direction: column;
   flex-basis: calc(100% / 3);
@@ -63,12 +63,12 @@ display: flex;
   padding-bottom: 20px;
   align-items: center;`;
 
-export const Label = styled.div`
+export const Label = styled.span`
 color: rgb(128, 128, 128);
   font-size: 12px;
   margin-bottom: 4px;`;
 
 
-export const Quantity = styled.div`
+export const Quantity = styled.span`
 font-weight: 600;
   font-size: 18px;`;

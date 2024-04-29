@@ -16,9 +16,9 @@ export const App = () => {
       <Profile
         avatar={user.avatar}
         username={user.username}
-        // tag={user.tag}
-        // location={user.location}
-        // stats={user.stats}
+        tag={user.tag}
+        location={user.location}
+        stats={user.stats}
       />
       {/* <Statistics title="Upload stats" stats={data} /> */}
       {/* <FriendList friends={friends} /> */}
